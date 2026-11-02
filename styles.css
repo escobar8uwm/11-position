@@ -1,0 +1,73 @@
+html{
+    background-color: rgb(252, 249, 216);
+    font-family: "Fredoka", sans-serif;
+}
+
+.wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.site-nav{
+    background-color: rgb(124, 172, 42);
+    margin: 30px;
+}
+
+.site-links{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    max-width: 600px;
+    margin-left: 275px;
+}
+
+.site-link{
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.site-link:hover{
+    background-color: rgb(57, 103, 12);
+}
+
+.dropdown{
+    background-color: rgb(255, 237, 237);
+    position: absolute;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+    list-style-type: none;
+    padding: 0;
+    display:none;
+}
+
+.dropdown-link{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    padding-right: 75px;
+    justify-content: left;
+    color: black;
+}
+
+.dropdown-link:hover{
+    background-color: antiquewhite;
+}
+
+.has-dropdown:hover .dropdown{
+    display:block
+}
+
+.site-main{
+    line-height: 28px;
+}
+
+code{
+    background-color: rgba(251, 151, 220, 0.252);
+    border-radius: 5px;
+    padding: 2px;
+    font-family: "Amarante", serif;
+    color: rgb(190, 5, 159);
+}
